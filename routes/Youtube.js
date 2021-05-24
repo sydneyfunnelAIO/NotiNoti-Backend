@@ -8,7 +8,7 @@ const SERVER_API = require("../Config");
 const { YOUTUBE } = require("../Config");
 const { YouTube } = require("popyt");
 const parseString = require("xml2js").parseString;
-const youtube = new YouTube("AIzaSyDCfcSbh1xuPx6OIYWAsF06FXIvejFpvsw");
+const youtube = new YouTube("YOUTUBETOKEN");
 
 const pubsubhubbub = require("pubsubhubbub");
 const client = pubsubhubbub.createServer({
