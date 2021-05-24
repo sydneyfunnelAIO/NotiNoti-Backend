@@ -1,0 +1,37 @@
+{
+  "name": "twitchifier-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "cryptojs": "^2.5.3",
+    "express": "^4.17.1",
+    "express-pubsubhubbub": "^1.0.3",
+    "express-xml-bodyparser": "^0.3.0",
+    "firebase": "^8.2.0",
+    "firebase-admin": "^9.4.2",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7",
+    "popyt": "^4.2.0",
+    "pubsubhubbub": "^1.0.1",
+    "twit": "^2.2.11",
+    "twitch": "^4.3.6",
+    "twitch-auth": "^4.3.6",
+    "twitch-webhook": "^1.2.4",
+    "twitch-webhooks": "^4.3.6",
+    "twitch-webhooks-ngrok": "^4.3.6",
+    "xml2js": "^0.4.23",
+    "youtube-notification": "^1.1.0"
+  }
+}
